@@ -29,7 +29,7 @@ public class RegisterSteps {
 
     @And("I input correct email for register")
     public void inputEmailReg() {
-        registerPage.inputEmailReg("sesorang123690");
+        registerPage.inputEmailReg("sesorang1234690");
     }
 
     @And("I input correct password for register")

@@ -1,2 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Transaction","Pay the product we've added to cart","SUCCESS","2023-05-06T20:20:24.8885101+07:00[Asia/Bangkok]","0.0","12.13"
+"Login to Alta-shop Account","Login without input any fields","SUCCESS","2023-05-07T10:40:18.5625391+07:00[Asia/Bangkok]","0.0","23.76"
+"Transaction","View transaction without login","SUCCESS","2023-05-07T10:41:10.4117048+07:00[Asia/Bangkok]","0.0","14.3"
+"Logout from Alta-shop Account","Logout from account","SUCCESS","2023-05-07T10:41:35.1916016+07:00[Asia/Bangkok]","0.0","10.41"

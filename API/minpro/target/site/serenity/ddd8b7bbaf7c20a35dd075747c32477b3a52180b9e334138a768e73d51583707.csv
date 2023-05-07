@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Product","POST - Add new product product","SUCCESS","2023-05-07T10:31:01.3460678+07:00[Asia/Bangkok]","0.0","0.19"
+"Product","POST - Add new product without fill name","SUCCESS","2023-05-07T10:31:01.5461143+07:00[Asia/Bangkok]","0.0","0.21"
+"Product","POST - Add new product without fill description","SUCCESS","2023-05-07T10:31:01.7624179+07:00[Asia/Bangkok]","0.0","0.18"
+"Product","POST - Add new product without fill price","SUCCESS","2023-05-07T10:31:01.9476075+07:00[Asia/Bangkok]","0.0","0.15"
+"Product","GET - Get product by ID","SUCCESS","2023-05-07T10:31:02.1026385+07:00[Asia/Bangkok]","0.0","0.27"
+"Product","GET - Get all product","SUCCESS","2023-05-07T10:31:02.382701+07:00[Asia/Bangkok]","0.0","0.15"
+"Product","GET - Get product by invalid ID","SUCCESS","2023-05-07T10:31:02.5387386+07:00[Asia/Bangkok]","0.0","0.15"

@@ -1,0 +1,17 @@
+starter\java\User.class
+starter\java\Comment.class
+starter\java\Product.class
+starter\java\Register.class
+starter\stepdefinitions\UserSteps.class
+starter\stepdefinitions\RegisterSteps.class
+starter\java\Order.class
+starter\java\Categories.class
+starter\stepdefinitions\LoginSteps.class
+starter\stepdefinitions\CategoriesSteps.class
+starter\stepdefinitions\CommentSteps.class
+starter\CucumberTestSuite.class
+starter\stepdefinitions\ProductSteps.class
+starter\java\Rating.class
+starter\stepdefinitions\OrderSteps.class
+starter\java\Login.class
+starter\stepdefinitions\RatingSteps.class

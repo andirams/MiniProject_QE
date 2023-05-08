@@ -1,4 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Login to Alta-shop Account","Login without input any fields","SUCCESS","2023-05-07T10:40:18.5625391+07:00[Asia/Bangkok]","0.0","23.76"
-"Transaction","View transaction without login","SUCCESS","2023-05-07T10:41:10.4117048+07:00[Asia/Bangkok]","0.0","14.3"
-"Logout from Alta-shop Account","Logout from account","SUCCESS","2023-05-07T10:41:35.1916016+07:00[Asia/Bangkok]","0.0","10.41"
+"Register to Alta-shop Account","Register without fill the fullname","SUCCESS","2023-05-08T16:10:33.9946019+07:00[Asia/Bangkok]","0.0","13.08"
+"Login to Alta-shop Account","Login with invalid email","SUCCESS","2023-05-08T16:11:55.0180714+07:00[Asia/Bangkok]","0.0","13.56"
+"Category","Clear category","SUCCESS","2023-05-08T16:12:33.8620485+07:00[Asia/Bangkok]","0.0","10.06"
+"Transaction","View Transaction","SUCCESS","2023-05-08T16:12:44.5928109+07:00[Asia/Bangkok]","0.0","16.93"

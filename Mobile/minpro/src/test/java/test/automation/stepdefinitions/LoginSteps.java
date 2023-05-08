@@ -68,7 +68,7 @@ public class LoginSteps {
 
     @And("I input incorrect email in login")
     public void iInputIncorrectEmailInLogin() {
-        String email = "stevano" + "@mail.com";
+        String email = "andirams" + "@mail.com";
         loginScreen.inputFieldEmail(email);
     }
 
@@ -76,7 +76,7 @@ public class LoginSteps {
 
     @And("I input invalid email in login")
     public void iInputInvalidEmailInLogin() {
-        String email = "stevano" + "mail.co.long";
+        String email = "andirams" + "mail.co.long";
         loginScreen.inputFieldEmail(email);
     }
 

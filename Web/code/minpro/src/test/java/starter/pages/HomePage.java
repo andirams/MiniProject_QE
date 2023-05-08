@@ -27,17 +27,17 @@ public class HomePage extends PageObject {
     }
 
     private By productSonyPS5() {
-        return By.id("13355");
+        return By.id("13364");
     }
 
     private By beliButton() {
         return By.xpath(
-                "//div[@id='13355']//button[@class='button-beli ml-3 v-btn v-btn--outlined theme--light v-size--small primary--text']");
+                "//div[@id='13364']//button[@class='button-beli ml-3 v-btn v-btn--outlined theme--light v-size--small primary--text']");
     }
 
     private By detailButton() {
         return By.xpath(
-                "//div[@id='13355']//button[@class='button-beli v-btn v-btn--outlined theme--light v-size--small primary--text']");
+                "//div[@id='13364']//button[@class='button-beli v-btn v-btn--outlined theme--light v-size--small primary--text']");
     }
 
     private By selectCategoryDropdown() {

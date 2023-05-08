@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Order","POST - Add new orders","SUCCESS","2023-05-07T10:31:02.7009007+07:00[Asia/Bangkok]","0.0","0.14"
-"Order","GET - Get all order","SUCCESS","2023-05-07T10:31:02.8459489+07:00[Asia/Bangkok]","0.0","0.14"
-"Order","GET - Get all order without login","SUCCESS","2023-05-07T10:31:02.9880216+07:00[Asia/Bangkok]","0.0","0.13"
+"Order","POST - Add new orders","SUCCESS","2023-05-08T16:19:57.8636218+07:00[Asia/Bangkok]","0.0","0.22"
+"Order","GET - Get all order","SUCCESS","2023-05-08T16:19:58.0876726+07:00[Asia/Bangkok]","0.0","0.21"
+"Order","GET - Get all order without login","SUCCESS","2023-05-08T16:19:58.3097235+07:00[Asia/Bangkok]","0.0","0.24"

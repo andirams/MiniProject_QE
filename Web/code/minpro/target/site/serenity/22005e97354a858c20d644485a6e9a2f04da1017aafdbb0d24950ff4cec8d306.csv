@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Transaction","View Transaction","SUCCESS","2023-05-07T10:41:04.9665544+07:00[Asia/Bangkok]","0.0","4.78"
-"Transaction","Pay the product we've added to cart","SUCCESS","2023-05-07T10:41:25.3569037+07:00[Asia/Bangkok]","0.0","5.14"
-"Transaction","Failed to pay when user hasn't login yet","SUCCESS","2023-05-07T10:41:31.1597927+07:00[Asia/Bangkok]","0.0","3.36"
+"Transaction","View transaction without login","SUCCESS","2023-05-08T16:13:02.1744052+07:00[Asia/Bangkok]","0.0","6.4"
+"Transaction","Pay the product we've added to cart","SUCCESS","2023-05-08T16:13:09.2561484+07:00[Asia/Bangkok]","0.0","8.67"
+"Transaction","Failed to pay when user hasn't login yet","SUCCESS","2023-05-08T16:13:18.5890932+07:00[Asia/Bangkok]","0.0","6.31"

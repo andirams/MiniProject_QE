@@ -39,7 +39,7 @@ Feature: Login
       And I click button login
       Then I get result the error message
 
-   Scenario Outline: As a user i want to login without input any fields
+   Scenario Outline: As a user i want to login without input password
 
       Given I am on the product list
       When I click button sign in

@@ -1,3 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"User Information","GET - Get user information","SUCCESS","2023-05-07T10:30:59.2625965+07:00[Asia/Bangkok]","0.0","0.42"
-"User Information","GET - Get user information without token","SUCCESS","2023-05-07T10:30:59.6921677+07:00[Asia/Bangkok]","0.0","0.25"
+"User Information","GET - Get user information","SUCCESS","2023-05-08T16:19:53.4655817+07:00[Asia/Bangkok]","0.0","0.29"
+"User Information","GET - Get user information without token","SUCCESS","2023-05-08T16:19:53.7673869+07:00[Asia/Bangkok]","0.0","0.17"

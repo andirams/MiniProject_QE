@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Comment","POST - Post comment","SUCCESS","2023-05-07T10:31:03.7453182+07:00[Asia/Bangkok]","0.0","0.17"
-"Comment","GET - Get comment with correct endpoints","SUCCESS","2023-05-07T10:31:03.9253628+07:00[Asia/Bangkok]","0.0","0.16"
-"Comment","Get comment with incorrect endpoints","SUCCESS","2023-05-07T10:31:04.0943971+07:00[Asia/Bangkok]","0.0","0.21"
+"Comment","POST - Post comment","SUCCESS","2023-05-08T16:19:59.5624573+07:00[Asia/Bangkok]","0.0","0.22"
+"Comment","GET - Get comment with correct endpoints","SUCCESS","2023-05-08T16:19:59.7895093+07:00[Asia/Bangkok]","0.0","0.23"
+"Comment","Get comment with incorrect endpoints","SUCCESS","2023-05-08T16:20:00.0345647+07:00[Asia/Bangkok]","0.0","0.34"

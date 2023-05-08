@@ -12,7 +12,7 @@ public class OrderPage extends PageObject {
     }
 
     private By orderProduct() {
-        return By.id("order-13355");
+        return By.id("order-13364");
     }
 
     private By alertOrderEmpty() {

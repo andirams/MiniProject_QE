@@ -28,7 +28,7 @@ public class RegisterSteps {
 
     @And("I input correct email in register")
     public void iInputFieldEmail() {
-        registerScreen.inputEmail("dimaas12123@mail.com");
+        registerScreen.inputEmail("someone121233@mail.com");
     }
 
     @And("I input correct password in register")
@@ -52,14 +52,14 @@ public class RegisterSteps {
 
     @And("I input invalid fullname in register")
     public void iInputInvalidFieldFullname() {
-        registerScreen.inputFieldFullName("stevenjatmiko");
+        registerScreen.inputFieldFullName("someone someone");
     }
 
     // Scenario Outline: As a user i want to register account with invalid email//
 
     @And("I input invalid email in register")
     public void iInputInvalidFieldEmail() {
-        registerScreen.inputEmail("stevenjatmikodotemaildotsch");
+        registerScreen.inputEmail("someonedotemaildotsch");
     }
 
     @Then("I should be redirected to product list")

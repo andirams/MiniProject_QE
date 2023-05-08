@@ -26,13 +26,16 @@ public class Order {
         requestBody.put("product_id", 13500);
         requestBody.put("quantity", 1);
 
-        SerenityRest.given().header("Authorization", "Bearer " + "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGdWxsbmFtZSI6IkFkaXR5YSBOdWdyYWhhIiwiRW1haWwiOiJhZGl0QGdtYWlsLmNvbSJ9.VM2lARkmmliu1pWtk1uhb8z5fGaElvH1jIoYM72Te3g").get(setGetApiEndpointOrder()).then().statusCode(200);
+        SerenityRest.given().header("Authorization", "Bearer "
+                + "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGdWxsbmFtZSI6IkFkaXR5YSBOdWdyYWhhIiwiRW1haWwiOiJhZGl0QGdtYWlsLmNvbSJ9.VM2lARkmmliu1pWtk1uhb8z5fGaElvH1jIoYM72Te3g")
+                .get(setGetApiEndpointOrder()).then().statusCode(200);
     }
-
 
     @Step("I send GET HTTP request order")
     public void sendGetHttpRequestOrder() {
-        SerenityRest.given().header("Authorization", "Bearer " + "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGdWxsbmFtZSI6IkFkaXR5YSBOdWdyYWhhIiwiRW1haWwiOiJhZGl0QGdtYWlsLmNvbSJ9.VM2lARkmmliu1pWtk1uhb8z5fGaElvH1jIoYM72Te3g").get(setGetApiEndpointOrder()).then().statusCode(200);
+        SerenityRest.given().header("Authorization", "Bearer "
+                + "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGdWxsbmFtZSI6IkFkaXR5YSBOdWdyYWhhIiwiRW1haWwiOiJhZGl0QGdtYWlsLmNvbSJ9.VM2lARkmmliu1pWtk1uhb8z5fGaElvH1jIoYM72Te3g")
+                .get(setGetApiEndpointOrder()).then().statusCode(200);
     }
 
     @Step("I send GET HTTP request order2")

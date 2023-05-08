@@ -5,6 +5,8 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.thucydides.core.annotations.Steps;
+
+import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.Assert;
 import test.automation.pages.RegisterScreen;
 import test.automation.pages.LoginScreen;
@@ -28,7 +30,12 @@ public class RegisterSteps {
 
     @And("I input correct email in register")
     public void iInputFieldEmail() {
-        registerScreen.inputEmail("someone121233@mail.com");
+        int length = 15;
+        String allowedChars = "abcdefghijklmnopqrstuvwxyz" + "1234567890" + "_-.";
+        String email = "";
+        String temp = RandomStringUtils.random(length, allowedChars);
+        email = temp.substring(0, temp.length() - 9) + "@mail.com";
+        registerScreen.inputEmail(email);
     }
 
     @And("I input correct password in register")
@@ -52,14 +59,14 @@ public class RegisterSteps {
 
     @And("I input invalid fullname in register")
     public void iInputInvalidFieldFullname() {
-        registerScreen.inputFieldFullName("someone someone");
+        registerScreen.inputFieldFullName("someone in the world");
     }
 
     // Scenario Outline: As a user i want to register account with invalid email//
 
     @And("I input invalid email in register")
     public void iInputInvalidFieldEmail() {
-        registerScreen.inputEmail("someonedotemaildotsch");
+        registerScreen.inputEmail("stevenjatmikodotemaildotsch");
     }
 
     @Then("I should be redirected to product list")

@@ -1,5 +1,7 @@
 package starter.stepdefinitions;
 
+import org.apache.commons.lang3.RandomStringUtils;
+
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -24,17 +26,22 @@ public class RegisterSteps {
 
     @And("I input correct fullname for register")
     public void inputFullnameReg() {
-        registerPage.inputFullnameReg("  ");
+        registerPage.inputFullnameReg("Someone In The World");
     }
 
     @And("I input correct email for register")
     public void inputEmailReg() {
-        registerPage.inputEmailReg("sesorang12346890@mail.com");
+        int length = 15;
+        String allowedChars = "abcdefghijklmnopqrstuvwxyz" + "1234567890" + "_-.";
+        String email = "";
+        String temp = RandomStringUtils.random(length, allowedChars);
+        email = temp.substring(0, temp.length() - 9) + "@mail.com";
+        registerPage.inputEmailReg(email);
     }
 
     @And("I input correct password for register")
     public void inputPasswordReg() {
-        registerPage.inputPasswordReg("  ");
+        registerPage.inputPasswordReg("someone123");
     }
 
     @And("I click on the register button")

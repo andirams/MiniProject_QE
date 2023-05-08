@@ -4,6 +4,8 @@ import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;
+
+import org.apache.commons.lang3.RandomStringUtils;
 import org.json.simple.JSONObject;
 
 public class Register {
@@ -20,8 +22,12 @@ public class Register {
     public void sendPostHttpRequestRegister() {
         JSONObject requestBody = new JSONObject();
 
-        // GANTI SETIAP RUN
-        requestBody.put("email", "someoneitwww11223335@gmail.com");
+        int length = 15;
+        String allowedChars = "abcdefghijklmnopqrstuvwxyz" + "1234567890" + "_-.";
+        String email = "";
+        String temp = RandomStringUtils.random(length, allowedChars);
+        email = temp.substring(0, temp.length() - 9) + "@mail.com";
+        requestBody.put("email", email);
         requestBody.put("password", "123123123");
         requestBody.put("fullname", "Firstname Lastname");
 
